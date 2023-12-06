@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Body = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-36 overflow-hidden">
       <div className=" flex flex-row h-fit w-full items-center">
         <div className="w-[30%]">
           <div className="flex flex-col gap-3 mb-3">
@@ -61,6 +61,12 @@ const Body = () => {
             height={550}
           />
         </div>
+      </div>
+      <div className="absolute top-0 left-0 -z-10">
+        <img src="/images/shared/paws-1.svg" alt="paws" />
+      </div>
+      <div className="absolute top-0 right-0 -z-10">
+        <img src="/images/shared/paws-2.svg" alt="paws" />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full flex items-center flex-col">
+    <div className="w-full flex items-center flex-col relative">
       <div className="max-w-7xl w-full">
         <Header />
       </div>
@@ -19,6 +19,12 @@ export default function Home() {
       </main>
       <div className="max-w-7xl w-full">
         <Footer />
+      </div>
+      <div className="absolute bottom-0 left-0 -z-10">
+        <img src="/images/shared/paws-3.svg" alt="paws" />
+      </div>
+      <div className="absolute bottom-0 right-0 -z-10">
+        <img src="/images/shared/paws-4.svg" alt="paws" />
       </div>
     </div>
   );

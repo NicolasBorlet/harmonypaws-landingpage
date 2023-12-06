@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="py-24 flex gap-32 justify-between items-start"
+      className="py-24 flex gap-32 justify-between items-start "
       id="contact"
     >
       <div>
@@ -45,6 +45,32 @@ const Footer = () => {
         <h3 className="text-2xl font-RoundsBlack text-[#6B4796] uppercase">
           Retrouvez-nous
         </h3>
+        <div className="flex gap-10 mt-[50px]">
+          <Image
+            src="/images/footer/logo-insta.svg"
+            alt="Instagram Logo"
+            width={32}
+            height={32}
+          />
+          <Image
+            src="/images/footer/logo-tiktok.svg"
+            alt="Instagram Logo"
+            width={32}
+            height={32}
+          />
+          <Image
+            src="/images/footer/logo-facebook.svg"
+            alt="Instagram Logo"
+            width={18}
+            height={32}
+          />
+          <Image
+            src="/images/footer/logo-linkedin.svg"
+            alt="Instagram Logo"
+            width={32}
+            height={32}
+          />
+        </div>
       </div>
     </footer>
   );
