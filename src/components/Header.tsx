@@ -17,15 +17,23 @@ const Header = () => {
         />
       </div>
       <nav>
-        <ul
-          className="flex"
-          style={{
-            gap: "2rem",
-          }}
-        >
-          <li className="text-lg uppercase font-RoundsBlack">Telecharger</li>
-          <li className="text-lg uppercase font-RoundsBlack">Concept</li>
-          <li className="text-lg uppercase font-RoundsBlack">Contact</li>
+        <ul className="flex ul" style={{ gap: "2rem" }}>
+          <li className="text-lg uppercase font-RoundsBlack relative">
+            <a className="cursor-pointer">Telecharger</a>
+            <div className="bar" style={{ backgroundColor: "#6B4796" }}></div>
+          </li>
+          <li className="text-lg uppercase font-RoundsBlack relative">
+            <a className="cursor-pointer" href="#concept">
+              Concept
+            </a>
+            <div className="bar" style={{ backgroundColor: "#F49819" }}></div>
+          </li>
+          <li className="text-lg uppercase font-RoundsBlack relative">
+            <a className="cursor-pointer" href="#contact">
+              Contact
+            </a>
+            <div className="bar" style={{ backgroundColor: "#00A453" }}></div>
+          </li>
         </ul>
       </nav>
     </header>

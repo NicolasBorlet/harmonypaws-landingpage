@@ -30,18 +30,78 @@
     background-position: center;
 }
 
+.grid-container h3::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 20px;
+    bottom: 0px;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
 .grid-container:first-child::after {
     background-image: url("/images/body/grid-container-1.png");
+}
+
+.grid-container:first-child h3::after {
+    background-color: #6B4796;
 }
 
 .grid-container:nth-child(2)::after {
     background-image: url("/images/body/grid-container-2.png");
 }
 
+.grid-container:nth-child(2) h3::after {
+    background-color: #F49819;
+    width: 45%;
+}
+
 .grid-container:nth-child(3)::after {
     background-image: url("/images/body/grid-container-3.png");
 }
 
+.grid-container:nth-child(3) h3::after {
+    background-color: #EE74AA;
+    width: 50%;
+}
+
 .grid-container:last-child::after {
     background-image: url("/images/body/grid-container-4.png");
+}
+
+.grid-container:last-child h3::after {
+    background-color: #00A453;
+}
+
+.body-illustration::after {
+    content: url("/images/body/arrow-green.svg");
+    position: absolute;
+    bottom: 100px;
+    left: -50px;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    /* Vous pouvez ajuster la taille du texte en fonction de vos besoins */
+}
+
+.bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+    /* Hauteur de la barre */
+    width: 0;
+    /* La largeur de la barre initialement est zéro */
+    transition: width 0.3s ease;
+    opacity: 0.3;
+    z-index: -1;
+    /* Transition de la largeur pour créer l'effet de remplissage progressif */
+}
+
+li:hover .bar {
+    width: 100%;
+    /* La largeur de la barre devient 100% au survol */
 }

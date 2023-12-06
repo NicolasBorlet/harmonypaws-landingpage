@@ -53,7 +53,7 @@ const Body = () => {
             </a>
           </div>
         </div>
-        <div className="w-[70%] flex justify-end">
+        <div className="w-[70%] flex justify-end body-illustration relative">
           <Image
             src="/images/body/illustration.png"
             alt="logo-harmonypaws"
