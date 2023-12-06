@@ -3,7 +3,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header
-      className="flex flex-row items-center"
+      className="flex flex-row items-center pt-12"
       style={{
         justifyContent: "space-between",
       }}

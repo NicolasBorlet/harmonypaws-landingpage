@@ -7,7 +7,9 @@ const Body = () => {
         <div className="w-[30%]">
           <div className="flex flex-col gap-3 mb-3">
             <h1 className="max-w-[341px] text-2xl font-Montserrat font-semibold text-start">
-              L’app qui crée des liens en unissant les pattes
+              L’app qui crée des{" "}
+              <span className="relative span-title">liens</span> en unissant les{" "}
+              <span className="relative span-title">pattes</span>
             </h1>
             <p className="max-w-[341px] text-sm font-Montserrat text-start">
               Rencontrez les propriétaires autour de vous pour socialiser votre

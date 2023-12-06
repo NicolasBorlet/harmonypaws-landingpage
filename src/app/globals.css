@@ -10,14 +10,6 @@
     src: url("/fonts/RoundsBlack.otf");
 }
 
-@font-face {
-    font-family: "Montserrat";
-    src: url(
-            "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        )
-        format("opentype");
-}
-
 .grid-container::after {
     content: "";
     position: absolute;
@@ -104,4 +96,28 @@
 li:hover .bar {
     width: 100%;
     /* La largeur de la barre devient 100% au survol */
+}
+
+.span-title:first-child::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0px;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background-color: #00A453;
+}
+
+.span-title:last-child::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0px;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background-color: #EE74AA;
 }
