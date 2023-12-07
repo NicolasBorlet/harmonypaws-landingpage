@@ -22,10 +22,10 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Footer />
       </div>
-      <div className="absolute bottom-0 left-0 -z-10">
+      <div className="absolute bottom-0 left-0 -z-10 invisible md:visible">
         <img src="/images/shared/paws-3.svg" alt="paws" />
       </div>
-      <div className="absolute bottom-0 right-0 -z-10">
+      <div className="absolute bottom-0 right-0 -z-10 invisible md:visible">
         <img src="/images/shared/paws-4.svg" alt="paws" />
       </div>
     </div>

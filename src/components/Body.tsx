@@ -64,7 +64,7 @@ const Body = () => {
           />
         </div>
       </div>
-      <div className="absolute top-0 max-xl:-top-20 left-0 -z-10">
+      <div className="absolute top-0 max-xl:-top-20 left-0 -z-10 invisible lg:visible">
         <img src="/images/shared/paws-1.svg" alt="paws" />
       </div>
       <div className="absolute top-0 max-xl:-top-20 right-0 -z-10">

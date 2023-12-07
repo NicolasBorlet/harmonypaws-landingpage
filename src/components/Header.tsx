@@ -16,8 +16,11 @@ const Header = () => {
           height={233}
         />
       </div>
-      <nav className="pl-8 pr-8 sm:pl-0 sm:pr-0">
-        <ul className="flex ul" style={{ gap: "2rem" }}>
+      <nav className="sm:pl-0 sm:pr-0">
+        <ul
+          className="flex ul flex-wrap justify-center"
+          style={{ gap: "2rem" }}
+        >
           <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
             <a className="cursor-pointer">Telecharger</a>
             <div className="bar" style={{ backgroundColor: "#6B4796" }}></div>
