@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <div className="flex flex-col w-full items-center justify-center mt-12 pl-8 pr-8 md:pl-24 md:pr-24">
+    <div
+      className="flex flex-col w-full items-center justify-center mt-12 pl-8 pr-8 md:pl-24 md:pr-24"
+      id="contact"
+    >
       <h1 className="md:text-3xl text-xl font-RoundsBlack uppercase text-center">
         Prenons nous la patte
       </h1>

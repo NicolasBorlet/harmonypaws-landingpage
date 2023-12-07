@@ -3,9 +3,9 @@ import Image from "next/image";
 const Body = () => {
   return (
     <div className="md:mt-36 sm:mt-24 mt-8">
-      <div className=" flex sm:flex-row flex-col gap-6 sm:gap-0 h-fit w-full items-center">
+      <div className=" flex sm:flex-row flex-col gap-10 sm:gap-0 h-fit w-full items-center">
         <div className="md:w-[30%] w-full">
-          <div className="flex flex-col gap-3 mb-3">
+          <div className="flex flex-col gap-3 mb-10 md:mb-5">
             <h1 className="max-w-[341px] md:text-2xl text-lg font-Montserrat font-semibold text-start">
               L’app qui crée des{" "}
               <span className="relative span-title">liens</span> en unissant les{" "}
@@ -16,7 +16,7 @@ const Body = () => {
               chien.
             </p>
           </div>
-          <div className="flex gap-[14px]">
+          <div className="flex gap-[14px] justify-center md:justify-start">
             <a className="py-3 px-3 bg-black flex items-center justify-center rounded-2xl gap-2 cursor-pointer hover:bg-[#F7A400] transition-all">
               <div>
                 <Image

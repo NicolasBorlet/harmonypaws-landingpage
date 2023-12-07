@@ -2,10 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer
-      className="py-24 pl-8 pr-8 flex lg:gap-32 md:gap-16 gap-10 justify-between items-center md:items-start flex-col md:flex-row"
-      id="contact"
-    >
+    <footer className="py-24 pl-8 pr-8 flex lg:gap-32 md:gap-16 gap-10 justify-between items-center md:items-start flex-col md:flex-row">
       <div>
         <div>
           <Image
