@@ -33,7 +33,7 @@ const Footer = () => {
       <div>
         <h3 className="text-2xl font-RoundsBlack text-[#6B4796] uppercase">
           Informations
-          <ul className="font-Montserrat text-base font-semibold normal-case mt-14">
+          <ul className="font-Montserrat text-base font-semibold normal-case mt-12">
             <li>Mentions légales</li>
             <li>CGU</li>
             <li>Plan du site</li>
@@ -45,7 +45,7 @@ const Footer = () => {
         <h3 className="text-2xl font-RoundsBlack text-[#6B4796] uppercase">
           Retrouvez-nous
         </h3>
-        <div className="flex gap-10 mt-[50px]">
+        <div className="flex gap-10 mt-12">
           <Image
             src="/images/footer/logo-insta.svg"
             alt="Instagram Logo"

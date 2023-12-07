@@ -17,7 +17,7 @@ const Body = () => {
             </p>
           </div>
           <div className="flex gap-[14px]">
-            <a className="py-3 px-3 bg-black flex items-center justify-center rounded-2xl gap-2 cursor-pointer">
+            <a className="py-3 px-3 bg-black flex items-center justify-center rounded-2xl gap-2 cursor-pointer hover:bg-[#F7A400] transition-all">
               <div>
                 <Image
                   src="/images/body/play-logo.png"
@@ -35,7 +35,7 @@ const Body = () => {
                 </p>
               </div>
             </a>
-            <a className="py-3 px-3 bg-black flex items-center justify-center rounded-2xl gap-2 cursor-pointer">
+            <a className="py-3 px-3 bg-black flex items-center justify-center rounded-2xl gap-2 cursor-pointer hover:bg-[#F7A400] transition-all">
               <div>
                 <Image
                   src="/images/body/apple-logo.png"

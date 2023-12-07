@@ -94,7 +94,7 @@
 }
 
 li:hover .bar {
-    width: 100%;
+    width: 90%;
     /* La largeur de la barre devient 100% au survol */
 }
 
