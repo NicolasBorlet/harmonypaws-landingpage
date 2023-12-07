@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Body from "@/components/Body";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -10,12 +11,13 @@ export default function Home() {
         <Header />
       </div>
       <main className="w-full flex items-center flex-col">
-        <div className="pr-24 pl-24">
+        <div className="md:pr-24 md:pl-24 pl-8 pr-8 max-w-7xl">
           <div className="max-w-7xl w-full">
             <Body />
           </div>
         </div>
         <Grid />
+        <Contact />
       </main>
       <div className="max-w-7xl w-full">
         <Footer />

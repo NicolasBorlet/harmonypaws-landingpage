@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="py-24 flex gap-32 justify-between items-start "
+      className="py-24 pl-8 pr-8 flex lg:gap-32 md:gap-16 gap-10 justify-between items-center md:items-start flex-col md:flex-row"
       id="contact"
     >
       <div>
@@ -45,7 +45,7 @@ const Footer = () => {
         <h3 className="text-2xl font-RoundsBlack text-[#6B4796] uppercase">
           Retrouvez-nous
         </h3>
-        <div className="flex gap-10 mt-12">
+        <div className="grid gap-10 mt-12 items-center sm:items-start sm:grid-cols-4 grid-cols-2">
           <Image
             src="/images/footer/logo-insta.svg"
             alt="Instagram Logo"

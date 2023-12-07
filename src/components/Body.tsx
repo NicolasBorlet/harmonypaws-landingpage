@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const Body = () => {
   return (
-    <div className="mt-36 overflow-hidden">
-      <div className=" flex flex-row h-fit w-full items-center">
-        <div className="w-[30%]">
+    <div className="md:mt-36 sm:mt-24 mt-8">
+      <div className=" flex sm:flex-row flex-col gap-6 sm:gap-0 h-fit w-full items-center">
+        <div className="md:w-[30%] w-full">
           <div className="flex flex-col gap-3 mb-3">
-            <h1 className="max-w-[341px] text-2xl font-Montserrat font-semibold text-start">
+            <h1 className="max-w-[341px] md:text-2xl text-lg font-Montserrat font-semibold text-start">
               L’app qui crée des{" "}
               <span className="relative span-title">liens</span> en unissant les{" "}
               <span className="relative span-title">pattes</span>
             </h1>
-            <p className="max-w-[341px] text-sm font-Montserrat text-start">
+            <p className="max-w-[341px] md:text-sm text-xs font-Montserrat text-start">
               Rencontrez les propriétaires autour de vous pour socialiser votre
               chien.
             </p>
@@ -30,7 +30,7 @@ const Body = () => {
                 <p className="text-[10px] font-Montserrat text-start text-white">
                   Télécharger sur{" "}
                 </p>
-                <p className="text-[14px] font-Montserrat font-bold text-start text-white">
+                <p className="text-[14px] font-Montserrat font-bold text-start text-white max-xl:text-[10px]">
                   Google Play
                 </p>
               </div>
@@ -48,14 +48,14 @@ const Body = () => {
                 <p className="text-[10px] font-Montserrat text-start text-white">
                   Télécharger sur{" "}
                 </p>
-                <p className="text-[14px] font-Montserrat font-bold text-start text-white">
-                  Google Play
+                <p className="text-[14px] font-Montserrat font-bold text-start text-white max-xl:text-[10px]">
+                  Apple Store
                 </p>
               </div>
             </a>
           </div>
         </div>
-        <div className="w-[70%] flex justify-end body-illustration relative">
+        <div className="md:w-[70%] sm:w-[90%] flex justify-end body-illustration relative">
           <Image
             src="/images/body/illustration.png"
             alt="logo-harmonypaws"
@@ -64,10 +64,10 @@ const Body = () => {
           />
         </div>
       </div>
-      <div className="absolute top-0 left-0 -z-10">
+      <div className="absolute top-0 max-xl:-top-20 left-0 -z-10">
         <img src="/images/shared/paws-1.svg" alt="paws" />
       </div>
-      <div className="absolute top-0 right-0 -z-10">
+      <div className="absolute top-0 max-xl:-top-20 right-0 -z-10">
         <img src="/images/shared/paws-2.svg" alt="paws" />
       </div>
     </div>

@@ -3,32 +3,32 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header
-      className="flex flex-row items-center pt-12"
+      className="flex md:flex-row gap-y-6 md:gap-y-0 flex-col items-center pt-12 md:pr-24 md:pl-24 pr-8 pl-8"
       style={{
         justifyContent: "space-between",
       }}
     >
       <div>
         <Image
-          src="/images/shared/logo.png"
+          src="/images/shared/logo.svg"
           alt="logo-harmonypaws"
           width={247}
           height={233}
         />
       </div>
-      <nav>
+      <nav className="pl-8 pr-8 sm:pl-0 sm:pr-0">
         <ul className="flex ul" style={{ gap: "2rem" }}>
-          <li className="text-lg uppercase font-RoundsBlack relative">
+          <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
             <a className="cursor-pointer">Telecharger</a>
             <div className="bar" style={{ backgroundColor: "#6B4796" }}></div>
           </li>
-          <li className="text-lg uppercase font-RoundsBlack relative">
+          <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
             <a className="cursor-pointer" href="#concept">
               Concept
             </a>
             <div className="bar" style={{ backgroundColor: "#F49819" }}></div>
           </li>
-          <li className="text-lg uppercase font-RoundsBlack relative">
+          <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
             <a className="cursor-pointer" href="#contact">
               Contact
             </a>
