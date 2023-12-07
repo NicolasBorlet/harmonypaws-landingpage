@@ -77,9 +77,35 @@
 @media screen and (min-width: 640px) {
     .body-illustration::after {
         display:block;
-        bottom: -50px;
+        bottom: 0px;
     }
     
+}
+
+@media screen and (min-width: 768px) {
+    .body-illustration::after {
+        display: block;
+        bottom: 0px;
+        left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .body-illustration::after {
+        display: block;
+        bottom: 0px;
+        left: -20px;
+    }
+
+}
+
+@media screen and (min-width: 1240px) {
+    .body-illustration::after {
+        display: block;
+        bottom: 50px;
+    }
+
 }
 
 .text-lg {

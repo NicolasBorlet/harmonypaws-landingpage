@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <nav className="sm:pl-0 sm:pr-0">
         <ul
-          className="flex ul flex-wrap justify-center"
+          className="flex ul flex-wrap sm:flex-nowrap justify-center"
           style={{ gap: "2rem" }}
         >
           <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
