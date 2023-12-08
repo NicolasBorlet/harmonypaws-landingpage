@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: "Harmony Paws",
   description:
     "Harmony paws is a sociability, awareness and online store application for dogs.",
+  icons: {
+    icon: "/images/favicon/logo-appli.png",
+    shortcut: "/images/favicon/logo-appli.png",
+    apple: "/images/favicon/logo-appli.png",
+  },
 };
 
 export default function RootLayout({
