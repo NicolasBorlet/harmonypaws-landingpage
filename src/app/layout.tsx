@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="shortcut icon" href="/images/body/grid-container-1.png" />
+        <link rel="icon" href="/images/favicon/logo-appli.png" sizes="any" />
       </Head>
       <body>
         <div className="flex justify-center">{children}</div>
