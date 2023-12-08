@@ -19,7 +19,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="bg-[#6B4796] text-white py-2 px-4 rounded-lg"
+              className="bg-[#6B4796] text-white py-2 px-4 rounded-lg font-Montserrat"
             >
               Envoyer
             </button>
