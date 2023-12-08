@@ -7,6 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Harmony Paws",
+  description:
+    "Harmony paws is a sociability, awareness and online store application for dogs.",
 };
 
 export default function RootLayout({
