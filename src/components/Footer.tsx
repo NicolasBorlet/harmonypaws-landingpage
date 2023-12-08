@@ -42,7 +42,7 @@ const Footer = () => {
         <h3 className="md:text-2xl text-lg font-RoundsBlack text-[#6B4796] uppercase text-center">
           Retrouvez-nous
         </h3>
-        <div className="grid gap-10 md:mt-12 mt-6 items-center sm:items-start sm:grid-cols-4 grid-cols-2">
+        <div className="grid gap-10 md:mt-12 mt-6 sm:items-start sm:grid-cols-4 grid-cols-2 justify-items-center">
           <Image
             src="/images/footer/logo-insta.svg"
             alt="Instagram Logo"
