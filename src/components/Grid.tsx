@@ -22,7 +22,7 @@ const Grid = () => {
         </div>
         <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
           <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
-            Une marketplace
+            Une boutique en ligne
           </h3>
           <p className="md:text-lg text-base font-Montserrat">
             Vendre et acheter des objets d’occasion en tout genre dédiés à votre
