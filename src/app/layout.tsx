@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     icon: "/images/favicon/logo-appli.png",
     shortcut: "/images/favicon/logo-appli.png",
     apple: "/images/favicon/logo-appli.png",
-    maskIcon: "/images/favicon/logo-appli.png",
   },
 };
 
