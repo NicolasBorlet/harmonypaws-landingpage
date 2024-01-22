@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <header
       className="flex md:flex-row gap-y-6 md:gap-y-0 flex-col items-center pt-12 md:pr-24 md:pl-24 pr-8 pl-8"
@@ -22,8 +25,8 @@ const Header = () => {
           style={{ gap: "2rem" }}
         >
           <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
-            <a className="cursor-pointer" href="">
-              Telecharger
+            <a className="cursor-pointer" href="#">
+              {t("headerItem1")}
             </a>
             <div className="bar" style={{ backgroundColor: "#6B4796" }}></div>
           </li>

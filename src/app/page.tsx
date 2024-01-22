@@ -3,6 +3,7 @@ import Body from "@/components/Body";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import "./i18n";
 
 export default function Home() {
   return (
