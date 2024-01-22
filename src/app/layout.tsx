@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,6 @@ export const metadata: Metadata = {
     icon: "/images/favicon/logo-appli.png",
     shortcut: "/images/favicon/logo-appli.png",
     apple: "/images/favicon/logo-appli.png",
-    maskIcon: "/images/favicon/logo-appli.png",
   },
 };
 
@@ -30,6 +30,7 @@ export default function RootLayout({
       </Head>
       <body>
         <div className="flex justify-center">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
