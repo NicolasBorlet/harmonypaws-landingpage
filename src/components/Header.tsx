@@ -22,7 +22,7 @@ const Header = () => {
           style={{ gap: "2rem" }}
         >
           <li className="sm:text-lg text-xs uppercase font-RoundsBlack relative">
-            <a className="cursor-pointer" href="">
+            <a className="cursor-pointer" href="#">
               Telecharger
             </a>
             <div className="bar" style={{ backgroundColor: "#6B4796" }}></div>
