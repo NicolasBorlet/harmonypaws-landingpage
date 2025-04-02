@@ -9,44 +9,37 @@ const Grid = () => {
           Une application qui regroupe
         </h2>
       </div>
-      <div className="md:grid-cols-2 grid-cols-1 grid gap-x-15 max-w-7xl w-full gap-x-28 gap-y-14 max-lg:gap-x-14">
-        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+      <div className="flex flex-col gap-y-14 max-w-7xl w-full">
+        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
           <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
             Un outil de rencontre
           </h3>
           <p className="md:text-lg text-base font-Montserrat">
-            Visualiser les propriétaires de chien autour de chez vous pour les
-            rencontrer et programmer des activités lors de vos sorites avec
-            votre toutou.
+            Rejoignez la communauté des propriétaires de chiens autour de chez
+            vous ! Avec l&apos;application Harmony Paws, vous pouvez rencontrer
+            de nouveaux amis pour vos toutous, planifier des sorties amusantes et
+            partager des expériences ensemble. C&apos;est l&apos;occasion
+            parfaite de socialiser, de faire de nouvelles rencontres et de
+            donner à votre chien les aventures qu&apos;il mérite !
           </p>
         </div>
-        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
-          <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
-            Une boutique en ligne
-          </h3>
-          <p className="md:text-lg text-base font-Montserrat">
-            Vendre et acheter des objets d’occasion en tout genre dédiés à votre
-            toutou pour faire des économies tout en respectant la planète.
-          </p>
-        </div>
-        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
-          <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
-            Un blog informatif
-          </h3>
-          <p className="md:text-lg text-base font-Montserrat">
-            Apprendre à connaître et comprendre son toutou en s’informant sur le
-            bien-être animal grâce à des professionnels du monde canin.
-          </p>
-        </div>
-        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
-          <h3 className="font-RoundsBlack w-fit md:text-2xl text-lg relative z-10">
-            Un outil de signalement
-          </h3>
-          <p className="md:text-lg text-base font-Montserrat">
-            Signaler des faits de maltraitance pour informer les associations
-            concernées et alerter notre communauté lors de la perte ou le vol de
-            son toutou.
-          </p>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-x-28 max-lg:gap-x-14">
+          <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+            <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
+              Formations et conseils
+            </h3>
+            <p className="md:text-lg text-base font-Montserrat">
+                Découvrez les secrets de votre chien avec notre formation et conseils, pour une vie heureuse et responsable, tout en respectant la planète !
+            </p>
+          </div>
+          <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+            <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
+              Carnet de sante
+            </h3>
+            <p className="md:text-lg text-base font-Montserrat">
+                Suivez la santé de votre chien avec notre carnet de santé en ligne ! Accédez à des informations précieuses et des conseils de professionnels pour assurer le bien-être de votre compagnon à quatre pattes.
+            </p>
+          </div>
         </div>
       </div>
     </div>
