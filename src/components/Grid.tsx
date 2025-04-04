@@ -10,7 +10,7 @@ const Grid = () => {
         </h2>
       </div>
       <div className="flex flex-col gap-y-14 max-w-7xl w-full">
-        <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+        <div id="rencontre" className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
           <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
             Un outil de rencontre
           </h3>
@@ -24,20 +24,20 @@ const Grid = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-x-28 max-lg:gap-x-14">
-          <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+          <div id="formations" className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
             <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
               Formations et conseils
             </h3>
             <p className="md:text-lg text-base font-Montserrat">
-                Découvrez les secrets de votre chien avec notre formation et conseils, pour une vie heureuse et responsable, tout en respectant la planète !
+              Découvrez les secrets de votre chien avec notre formation et conseils, pour une vie heureuse et responsable, tout en respectant la planète !
             </p>
           </div>
-          <div className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
+          <div id="carnet" className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
             <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
               Carnet de sante
             </h3>
             <p className="md:text-lg text-base font-Montserrat">
-                Suivez la santé de votre chien avec notre carnet de santé en ligne ! Accédez à des informations précieuses et des conseils de professionnels pour assurer le bien-être de votre compagnon à quatre pattes.
+              Suivez la santé de votre chien avec notre carnet de santé en ligne ! Accédez à des informations précieuses et des conseils de professionnels pour assurer le bien-être de votre compagnon à quatre pattes.
             </p>
           </div>
         </div>
