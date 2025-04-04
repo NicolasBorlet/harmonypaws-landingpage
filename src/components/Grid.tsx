@@ -23,7 +23,7 @@ const Grid = () => {
             donner à votre chien les aventures qu&apos;il mérite !
           </p>
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-x-28 max-lg:gap-x-14">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-x-14 max-lg:gap-x-14 gap-y-14">
           <div id="formations" className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
             <h3 className="w-fit font-RoundsBlack md:text-2xl text-lg relative z-10">
               Formations et conseils
