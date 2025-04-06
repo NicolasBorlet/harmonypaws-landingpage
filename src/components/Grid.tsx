@@ -29,7 +29,7 @@ const Grid = () => {
               Formations et conseils
             </h3>
             <p className="md:text-lg text-base font-Montserrat">
-              Découvre les secrets de ton chien avec notre formation et conseils, pour une vie heureuse et responsable, tout en respectant la planète !
+              Découvre les secrets de ton chien avec notre formation et conseils, pour une vie heureuse et responsable !
             </p>
           </div>
           <div id="carnet" className="bg-white rounded-[20px] md:p-8 p-4 flex flex-col md:gap-7 gap-4 grid-container relative shadow-md hover:shadow-xl transition-shadow">
