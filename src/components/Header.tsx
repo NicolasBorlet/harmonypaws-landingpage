@@ -10,7 +10,7 @@ const Header = () => {
     >
       <div>
         <Image
-          src="/images/shared/logo.svg"
+          src="/images/shared/logo.png"
           alt="logo-harmonypaws"
           width={247}
           height={233}
