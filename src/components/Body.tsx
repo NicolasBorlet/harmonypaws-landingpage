@@ -7,7 +7,7 @@ const Body = () => {
         <div className="md:w-[30%] w-full">
           <div className="flex flex-col gap-3 mb-10 md:mb-5">
             <h1 className="max-w-[341px] md:text-2xl text-lg font-Montserrat font-semibold text-start">
-              L'app qui crée des{" "}
+              L&apos;app qui crée des{" "}
               <span className="relative span-title">liens</span> en unissant les{" "}
               <span className="relative span-title">pattes</span>
             </h1>
